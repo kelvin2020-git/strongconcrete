@@ -2,7 +2,7 @@ import Head from "next/head";
 import React from "react";
 import Navbar from "../components/Navbar";
 import '../styles/global.css'
-function MyApp() {
+function MyApp({ Component, pageProps }) {
   return (
     <React.Fragment>
       <Head>
@@ -16,7 +16,7 @@ function MyApp() {
 
       </Head>
       <Navbar/>
-  
+      <Component {...pageProps} />
       
     </React.Fragment>
   );

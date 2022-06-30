@@ -1,5 +1,5 @@
 import React from "react";
-import Caruseles from '../components/carousel';
+
 export default function Inicio () {
 
  
@@ -15,7 +15,7 @@ export default function Inicio () {
 
           <span>STRONG CONCRETE</span>  <span>LÍDERES EN CALIDAD DE ACABADOS DECORATIVOS EN CONCRETO</span>
 
-          <Caruseles/>
+      
         
         </section>
     </>

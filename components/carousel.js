@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Item from "./Item";
 import Carousel from "react-elastic-carousel";
 import Image from 'next/image';
-import mypic from '../public/22.webp'
+
 // import {collection, query, orderBy, onSnapshot} from "firebase/firestore"
 // import {db} from './firebase'
 // // import { db, getDocs, doc, collection } from "../components/firebase/firebase-config";
