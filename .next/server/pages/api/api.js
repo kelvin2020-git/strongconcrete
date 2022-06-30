@@ -38,9 +38,9 @@ module.exports = require("nodemailer");
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ body)
+/* harmony export */   "default": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-function body(req, res) {
+/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__(req, res) {
     const express = __webpack_require__(860);
     const cors = __webpack_require__(582);
     const app = express();

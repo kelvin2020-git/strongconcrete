@@ -118,7 +118,7 @@ function Navbar() {
 
 
 
-function MyApp({ Component , pageProps  }) {
+function MyApp() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)((external_react_default()).Fragment, {
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
@@ -148,10 +148,7 @@ function MyApp({ Component , pageProps  }) {
                     })
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx(Navbar, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                ...pageProps
-            })
+            /*#__PURE__*/ jsx_runtime_.jsx(Navbar, {})
         ]
     });
 }
