@@ -1,4 +1,4 @@
-export default function (req, res) {
+export default function body (req, res) {
 
   
     const express = require("express");
