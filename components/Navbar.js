@@ -49,15 +49,14 @@ export default function Navbar() {
   </li>
 
 
-            
-        <Link href="#nosotros"passHref><a className= "navbar3">NOSOTROS</a></Link>
-   
+                   
+      <a className= "navbar3" href="#nosotros" >NOSOTROS</a>
+     
          
           
-            <Link href="#proyecto"passHref><a className= "navbar3">PROYECTOS</a></Link>
-            <Link href="#contacto"passHref><a className= "navbar3">CONTACTOS</a></Link>                     
-       
-      
+     <a className= "navbar3" href="#proyecto">PROYECTOS</a>
+ <a className= "navbar3" href="#contacto">CONTACTOS</a>                     
+
               
 
 
