@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build", 
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "npm run prepare && next build"
+
   },
   "keywords": [],
   "author": "",
@@ -24,7 +26,8 @@
     "react-elastic-carousel": "^0.11.5",
     "react-multi-carousel": "^2.8.2",
     "react-responsive-carousel": "^3.2.23",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "vercel": "^25.2.2"
   },
   "devDependencies": {
     "eslint": "8.18.0",
