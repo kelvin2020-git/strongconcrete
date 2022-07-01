@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from "next/Link";
 import logo from '../public/logo.webp'
 
 export default function Navbar() {
@@ -49,14 +48,15 @@ export default function Navbar() {
   </li>
 
 
-                   
+            
       <a className= "navbar3" href="#nosotros" >NOSOTROS</a>
      
          
           
-     <a className= "navbar3" href="#proyecto">PROYECTOS</a>
- <a className= "navbar3" href="#contacto">CONTACTOS</a>                     
-
+            <a className= "navbar3" href="#proyecto">PROYECTOS</a>
+        <a className= "navbar3" href="#contacto">CONTACTOS</a>                     
+       
+      
               
 
 
